@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  background: #e8e8e8 url('/image/Ellipse.png') 50% 130px no-repeat;
+}
+
+.main {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 168px 0 137px 0;
+}
+.header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.header {
+}
+.header-category {
+  color: #748187;
+  text-transform: uppercase;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  padding-bottom: 15px;
+}
+.header-title {
+  color: #273d46;
+  line-height: 50px;
+  font-size: 36px;
+  max-width: 725px;
+  margin: 0 auto;
+}
+.image {
+  box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+  background-color: #fff;
+  padding: 10px;
+  margin: 0px 0px 90px 0px;
+}
+.image img {
+  max-width: 100%;
+}
+.content {
+  padding: 0px 40px;
+}
+.content-text {
+  color: #53646b;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 48px;
+}
+.content-text p {
+  margin: 0px 0px 40px 0px;
+}
+.content-text p:last-child {
+  margin: 0;
+}
+.content-info {
+}
+.content-info_list {
+  margin-bottom: 40px;
+}
+.content-info_list li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0px 0px 13px 0px;
+  background: url('/image/icons/check.png') left no-repeat;
+  padding-left: 36px;
+}
+.content-info_list li:last-child {
+  margin: 0;
+}
+.content-info_list li:nth-child(1) {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  color: #273d46;
+
+}
+.content-info_list li:nth-child(2) {
+  color: #80b7b3;
+  font-style: italic;
+}
+.content-info_list li:nth-child(3) {
+  color: #273d46;
+  font-weight: 700;
+}
+.content-info_list li:nth-child(4) {
+  color: #273d46;
+  text-decoration: line-through;
+}
+.content-info_list li:nth-child(4) span {
+  opacity: 0.3;
+}
+
+.content-btn {
+  height: 44px;
+  display: inline-block;
+  line-height: 44px;
+  border-radius: 23px;
+  padding: 0px 30px;
+  background-color: #80b7d3;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  transition: all 0.2s ease-in;
+}
+.content-btn span {
+  padding-right: 30px;
+  background: url(/image/icons/arrow.svg) right no-repeat;
+}
+.content-btn:hover {
+  background-color: #511e23;
+}
