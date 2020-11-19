@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e8e8e8;
-  background: #e8e8e8 url('/image/Ellipse.png') 50% 130px no-repeat;
+  background: #e8e8e8 url('../image/Ellipse.png') 50% 130px no-repeat;
 }
 
 .main {
@@ -65,7 +65,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 20px;
   margin: 0px 0px 13px 0px;
-  background: url('/image/icons/check.png') left no-repeat;
+  background: url('../image/icons/check.png') left no-repeat;
   padding-left: 36px;
 }
 .content-info_list li:last-child {
@@ -107,7 +107,7 @@ body {
 }
 .content-btn span {
   padding-right: 30px;
-  background: url(/image/icons/arrow.svg) right no-repeat;
+  background: url(../image/icons/arrow.svg) right no-repeat;
 }
 .content-btn:hover {
   background-color: #511e23;
